@@ -1,0 +1,41 @@
+Arguments: 
+  /Users/bgeissler/.nvm/versions/node/v9.11.1/bin/node /Users/bgeissler/.yarn/bin/yarn.js add pupeteer
+
+PATH: 
+  /Users/bgeissler/.yarn/bin:/Users/bgeissler/.config/yarn/global/node_modules/.bin:/Users/bgeissler/Tools/google-cloud-sdk/bin:/Users/bgeissler/.nvm/versions/node/v9.11.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/bgeissler/Scripts:
+
+Yarn version: 
+  1.9.4
+
+Node version: 
+  9.11.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/pupeteer: Not found
+      at Request.params.callback [as _callback] (/Users/bgeissler/.yarn/lib/cli.js:64202:18)
+      at Request.self.callback (/Users/bgeissler/.yarn/lib/cli.js:137468:22)
+      at Request.emit (events.js:180:13)
+      at Request.<anonymous> (/Users/bgeissler/.yarn/lib/cli.js:138440:10)
+      at Request.emit (events.js:180:13)
+      at IncomingMessage.<anonymous> (/Users/bgeissler/.yarn/lib/cli.js:138362:12)
+      at Object.onceWrapper (events.js:272:13)
+      at IncomingMessage.emit (events.js:185:15)
+      at endReadableNT (_stream_readable.js:1106:12)
+      at process._tickCallback (internal/process/next_tick.js:178:19)
+
+npm manifest: 
+  {
+    "name": "adve2018",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
